@@ -1,0 +1,53 @@
+.header .left,.header .right,.header{
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.header .left{
+    margin-left: 40px;
+    flex: 0.7;
+    align-items: center;
+}
+.header .right{
+    flex: 0.3;
+    align-items: center;
+    display: contents;
+    margin-right: 5rem;
+}
+.arrow{
+    padding: 5px;
+    border-radius: 999px;
+    border-color: black;
+}
+.left-arrow{
+    background-color: #595151;
+    margin-right: 15px;
+}
+.right-arrow{
+    background-color:  #2f2b2b;
+}
+.header .right button{
+    width: max-content;
+    padding: 3px 30px;
+    background-color: #302b2b;
+    border-radius: 99px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    border: none;
+    outline:none;
+}
+.header .right .upgrade{
+    margin-left: 500px;
+}
+.header .right .name{
+    margin-right: 100px;
+    display: flex;
+}
+.header .right .name span{
+    margin-top: 5px;
+    margin-left: 5px;
+}

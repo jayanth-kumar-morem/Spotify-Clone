@@ -1,0 +1,67 @@
+.songListItem{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    color: #a1a1a1;
+    height: 60px;
+    place-content:space-between;
+}
+.songListItem:hover{
+    background-color: #433d3d;
+    border-radius: 4px;
+}
+.songListItem h6{
+    font-size: 15px;
+}
+.songListItem .right{
+    margin-top: auto;
+    margin-bottom: auto;
+    background: transparent;
+    color: #a1a1a1;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+}
+.songListItem .left_details{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.songListItem .index{
+    margin-top: 15px;
+    color: #1db954;
+}
+.songListItem .details{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.songListItem .details h6{
+    margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 100;
+}
+.songListItem .details .name{
+    color: #1db954;
+    margin-left: -18px;
+}
+.songListItem .details .author{
+    width: max-content;
+    margin-top: 3px;
+}
+.songListItem .right .love-icon{
+    margin-left: -45px;
+    margin-right: 35px;
+    display: none;
+}
+.songListItem .right .options-icon{
+    margin-left: 25px;
+    display: none;
+}
+.songListItem .right .options-icon,.songListItem .right .love-icon{
+    display: flex;
+}

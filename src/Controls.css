@@ -1,0 +1,20 @@
+.controls{
+    color: white;
+    background: black;
+    display: inline-flex;
+    width: 100%;
+    place-items: baseline;
+    place-content: space-between
+}
+.controls-left img{
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.controls-left p{
+    font-size: small;
+}
+.controls-left{
+    display: inline-flex;
+    place-items: flex-end;
+}

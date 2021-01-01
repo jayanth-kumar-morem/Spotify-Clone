@@ -1,0 +1,71 @@
+.songslist{
+    margin-top: 27px;
+    height: 200%;
+    width: 100%;
+    background: transparent;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+    background-color: rgb(65,59,59,0.5);
+}
+
+.songslist .icons{
+    height: 100px;
+    color: #aaa6a6;
+    display: flex;
+    place-items: center;
+
+}
+.songslist .icons .icon{
+    margin-left: 35px;
+}
+.songslist .icons .play-icon{
+    color: white;
+    padding: 7px;
+    border-radius: 999px;
+    border: 2px solid #1db954;
+    background-color: #1db954;
+    font-size: 35px;
+    transition: 200ms ease-in;
+}
+.songslist .icons .play-icon:hover{
+    transform: scale(1.1);
+}
+.songslist .icons  .love-icon,.songslist .icons .options-icon{
+    font-size: 35px;
+    transition: 200ms ease-in;
+}
+.songslist .icons  .love-icon:hover,.songslist .icons .options-icon:hover{
+    color: white;
+    cursor: pointer;
+}
+.songslist .tile-heading{
+    display: flex;
+    flex-direction: row;
+    place-content:space-between;
+    color: #a6a6a6;
+}
+.songslist .tile-heading .title-text{
+    margin-left: 50px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+.songslist .tile-heading .time-icon{
+    margin-right: 160px;
+    font-size: large;
+}
+.songslist hr{
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border: 0.0001px solid #3a3a3a;
+    width: 95%;
+    color: grey;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.songslist .songs{
+    height: 100px;
+    max-height: 100px ;
+}

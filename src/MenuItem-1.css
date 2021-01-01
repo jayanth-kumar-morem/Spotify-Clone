@@ -1,0 +1,29 @@
+.menuitem1{
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    background-color: #111111;
+    transition: 200ms ease-in;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    object-fit: cover;
+}
+.menuitem1:hover{
+    background-color: #282828;
+}
+.menuitem1 .icon{
+    padding-left: 14px;
+}
+.menuitem1 p{
+    font-size: small   ;
+    padding-top:3px ;
+    padding-left: 10px ;
+    color: #ffffff;
+}
+.menuitem1 p:hover{
+}

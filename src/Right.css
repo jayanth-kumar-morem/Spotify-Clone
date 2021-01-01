@@ -1,0 +1,15 @@
+.right{
+  padding: 0;
+  width: 100%;
+  overflow-y: overlay;
+  flex: 0.9;
+  color: white;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: #a49595;
+}
+.right .banner{
+    margin-top: 50px;
+}
+::-webkit-scrollbar {
+  display: none;
+}

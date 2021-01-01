@@ -1,0 +1,61 @@
+.leftmenu{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 0.1;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 230px;
+    height: 87vh;
+    top:0;
+    color: white;
+    background-color: #040404;
+}
+.leftmenu .logo{
+    padding-top: 20px;
+    object-fit: contain;
+    border: auto 0;
+    height: 40px;
+    margin-right: 55px;
+    margin-bottom: 10px;
+}
+.leftmenu .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftmenu .playlist{
+    display: flex;
+    margin-left: 20px;
+    font-size: small;
+    padding-left: 14px;
+    margin-bottom: 10px;
+}
+.leftmenu hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border: 0.0001px solid #3a3a3a;
+    width: 85%;
+    color: #232323;
+    background-color: black;
+}
+.leftmenu .download{
+    position: absolute;
+    bottom: 75px;
+    padding: auto 100%;
+    margin: auto;
+    margin-left: 50px;
+    margin-bottom: 7px;
+}
+.leftmenu .download p{
+    padding-left: 14px;
+    padding-right: 13px;
+    width:100px ;
+}
+.leftmenu .download .icon{
+    padding-left: 0;
+}

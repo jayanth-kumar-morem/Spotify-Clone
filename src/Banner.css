@@ -1,0 +1,50 @@
+.banner{
+    display: flex;
+    background: transparent;
+    padding: 30px;
+}
+.banner .left img{
+    object-fit: contain;
+    width: 250px;
+}
+.banner .right{
+    background: transparent;
+    height: 250px;
+}
+.banner .right .single{
+    font-size: small;
+    display: flex;
+    margin-top:80px;
+    margin-left: 20px;
+}
+.banner .right .title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 120px;
+    letter-spacing: -10px;
+    display: flex;
+    margin-top: -30px;
+    /* margin-left: -15px; */
+    margin-bottom: -30px;
+}
+.banner .right .details{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: -100px;
+    margin-left: 10px;
+}
+.banner .right .details span{
+    display: flex;
+    flex-direction: row;
+}
+.banner .right .details .dot{
+    margin-left: 5px;
+    margin-top: 2.5px;
+    font-size: small;
+}
+.banner .right .details .author-icon{
+    font-size: 20px;
+    margin-left: 5px;
+}

@@ -1,0 +1,17 @@
+.dashboard{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.dashboard .top{
+    display: flex;
+    flex-direction: row;
+    height: 89vh;
+}
+.dashboard .bottom{
+    padding: 0;
+    height: 13vh;
+    border: 1px solid white;
+    margin: 0;
+}
